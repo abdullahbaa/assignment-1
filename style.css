@@ -1,6 +1,6 @@
 .full-banner{
-    width: 1600px;
-    height: 7335px;
+    width: 1200px;
+    height: 5335px;
     background-color: #fff;
     padding: 30px 30px 30px 150px;
     
@@ -54,4 +54,20 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.off{
+    color: red;
+    padding: 80px 100px;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.new-profile{
+    width: 1600px;
+    height: 7335px;
+}
+p{
+    color: red;
 }
