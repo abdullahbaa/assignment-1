@@ -1,0 +1,30 @@
+.full-banner{
+    width: 1600px;
+    height: 7335px;
+    background-color: #fff;
+    
+
+}
+.banner-pic{
+    text-align: center;
+    position: center;
+    width: 1000px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+}
+.text-happy{
+    color: #FFF;
+    position: absolute;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+        
+}
