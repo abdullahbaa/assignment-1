@@ -103,3 +103,21 @@
     margin-top: auto;
     margin-right: none;
 }
+.container{
+    position: relative;
+}
+.text-block{
+    position: absolute;
+    top:80px;
+    left: 20px;
+    background-color: none;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.join{
+    
+    text-decoration: double;
+    color: rgb(18, 55, 88);
+    list-style: none;
+}
