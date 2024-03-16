@@ -121,3 +121,22 @@
     color: rgb(18, 55, 88);
     list-style: none;
 }
+.third-por{
+    text-align: center;
+
+}
+/* 4th section */
+.red-bar{
+    color: red;
+}
+.btn-now{
+    color: aliceblue;
+    background-color: red;
+    font-size: 12px;
+}
+/* 5th section */
+
+.new-offer{
+    color: red;
+    
+}
