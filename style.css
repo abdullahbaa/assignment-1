@@ -103,8 +103,16 @@
     margin-top: auto;
     margin-right: none;
 }
+/* 3rd section */
 .container{
     position: relative;
+}
+.group-70{
+    width:auto ;
+    height: auto;
+    bottom: 30px;
+    right: 30px;
+
 }
 .text-block{
     position: absolute;
@@ -136,7 +144,65 @@
 }
 /* 5th section */
 
+
+.fifth-section
+{
+    display: flex;
+    padding: 30px 30px 30px 150px;
+}
 .new-offer{
     color: red;
     
 }
+.s2024{
+    
+    text-align: right;
+}
+.he2024{
+    text-align: center;
+    color: red;
+}
+.ellipse{
+  display: block;
+
+  width: 60%;
+}
+/* 6th section */
+
+.sixth-srction{
+ text-align: center;
+}
+.holidays-02{
+    text-decoration: double;
+    color: red;
+}
+
+/* 7th section */
+
+/* 8th section */
+.best-gift{
+    color: red;
+    text-decoration: double;
+}
+
+.column {
+    display: block;
+    height: 150px;
+    width: 40%;
+    background-color: white;
+  }
+  .row::after {
+    display: flex;
+    
+    
+  }
+.column1 {
+    display: block;
+    height: 150px;
+    width: 40%;
+    background-color: white;
+  }
+  .row1::after {
+    display: flex;
+    
+  }
