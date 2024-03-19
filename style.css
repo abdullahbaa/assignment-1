@@ -184,25 +184,38 @@
     color: red;
     text-decoration: double;
 }
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+   
+}
 
-.column {
-    display: block;
-    height: 150px;
-    width: 40%;
-    background-color: white;
-  }
-  .row::after {
-    display: flex;
+.row ::after {
+    content: "";
     
-    
-  }
-.column1 {
-    display: block;
-    height: 150px;
-    width: 40%;
-    background-color: white;
-  }
-  .row1::after {
-    display: flex;
-    
-  }
+    clear: both;
+    display: flex; 
+
+}
+.column1{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    flex: 33.33%;
+}
+
+.row1 ::after {
+    content: "";
+    display: flex; 
+    clear: both;
+
+}
+.photoes{
+ height: 150px;
+ width: 50%;
+ background-color: antiquewhite;  
+}
+
+
+  
